@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "noEmit": true,
+    "incremental": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": [
+    "next-env.d.ts",
+    ".next/types/**/*.ts",
+    "**/*.ts",
+    "**/*.tsx"
+, "src/components/LoginForm.jsx", "src/components/ThemeSwitcher.jsx", "src/components/FormInput/ToggleInput.jsx", "src/components/FormInput/TextInput.jsx", "src/components/FormInput/TextAreaInput.jsx", "src/components/FormInput/SubmitButton.jsx", "src/components/FormInput/SelectInput.jsx", "src/components/FormInput/ImageInput.jsx", "src/components/store/Header/DropdownCart.jsx", "src/components/store/Header/Navbar.jsx", "src/components/store/Header/DropdownUser.jsx", "src/components/store/Header/DropdownNotification.jsx", "src/components/store/CategorySlider.jsx", "src/components/store/CategoryList.jsx", "src/components/store/TrainingsSlider.jsx", "src/components/store/StoreSlider.jsx", "src/components/store/StoreList.jsx", "src/components/store/SidebarCategories.jsx", "src/components/store/SearchForm.jsx", "src/components/store/HeroCarousel.jsx", "src/components/store/Hero.jsx", "src/components/store/Footer.jsx", "src/components/store/CommunityTrainings.jsx", "src/components/dashboard/Charts/TotalChart.jsx", "src/components/dashboard/Charts/BestSellingChart.jsx", "src/components/dashboard/DataTables/CustomDataTable.jsx", "src/components/dashboard/DataCards/SmallCardDataStats.jsx", "src/components/dashboard/DataCards/LargeCardDataStats.jsx", "src/components/dashboard/Header/Header.jsx", "src/components/dashboard/Header/DropdownUser.jsx", "src/components/dashboard/Header/DropdownNotification.jsx", "src/components/dashboard/Header/DropdownMessage.jsx", "src/components/dashboard/Sidebar/SidebarLinkGroup.jsx", "src/components/dashboard/Sidebar/Sidebar.jsx", "src/components/Loader.jsx", "src/components/dashboard/PageHeader.jsx", "src/components/dashboard/Heading.jsx", "src/components/dashboard/FormHeader.jsx", "src/components/dashboard/Form/NewCommunityPostForm.jsx", "src/components/dashboard/NewSupplierForm.jsx", "src/components/dashboard/NewStoreForm.jsx", "src/components/dashboard/Form/NewProductForm.jsx", "src/app/api/staffs/route.js", "src/app/api/stores/route.js", ".next/types/app/api/banners/route.js", "src/app/(store)/product/page.jsx", ".next/types/app/(auth)/(route)/forgotpassword/page.jsx"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
